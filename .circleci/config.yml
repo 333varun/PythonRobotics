@@ -19,12 +19,12 @@ jobs:
             pip install -r docs/doc_requirements.txt
             cd docs;make html
       - store_artifacts:
-          path: docs/_build/html/
+          path: docs/_build/html
           destination: html
-
 workflows:
   main:
     jobs:
       - build_doc
       helo varun
       welcom to devops varun
+      thirumalesh
